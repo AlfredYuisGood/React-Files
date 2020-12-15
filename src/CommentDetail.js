@@ -12,7 +12,7 @@ const CommentDetail = props => {
             </a>
             <div className="metadata">
                 <span className="date">
-                    Today at 6:00PM
+                    {props.timeAge}
                 </span>
             </div>
             <div className="text">Nice blog post.</div>
