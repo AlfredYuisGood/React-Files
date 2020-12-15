@@ -15,7 +15,7 @@ const CommentDetail = props => {
                     {props.timeAge}
                 </span>
             </div>
-            <div className="text">Nice blog post.</div>
+            <div className="text">{props.content}</div>
         </div>
     </div>
     );
